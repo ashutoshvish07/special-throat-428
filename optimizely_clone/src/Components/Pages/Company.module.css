@@ -1,0 +1,37 @@
+.company {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: space-between;
+  width: 87%;
+  margin: auto;
+}
+.company > div {
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: auto;
+  padding-left: 4rem;
+}
+.company > div > img {
+  width: 70%;
+}
+.trusted {
+  font-size: 40px;
+  color: #000000;
+  font-weight: bolder;
+  padding-left: 115px;
+  padding-bottom: 60px;
+  padding-top: 70px;
+}
+.customerbtn {
+  width: 20%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.customerbtn > Button {
+  border-radius: 3rem;
+  color: blue;
+  width: 80%;
+  font-weight: lighter;
+  background-color: rgb(204, 215, 255);
+}

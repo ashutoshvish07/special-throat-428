@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.header_div {
+  display: flex;
+  width: 87%;
+  margin: auto;
+  margin-top: 30px;
+}
+.Text_Div {
+  width: 33%;
+}
+.Text_Div > h1 {
+  padding-top: 60px;
+  color: #000000;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 100px;
+}
+.Text_Div > p {
+  padding-top: 40px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+}
+.header_img {
+  width: 67%;
+}
+.Opticon {
+  width: 80%;
+  border-radius: 20px;
+  height: 400px;
+
+  margin: auto;
+  background-color: #0037ff;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+.opt_gif {
+  width: 40rem;
+  padding-left: 15rem;
+  margin-top: -12px;
+}
+.date {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: -30px;
+}
+.date > div > h2 {
+  color: #ffce00;
+  font-size: 3em;
+}
+.date > div > h1 {
+  color: white;
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.date > div > p {
+  color: white;
+  margin-left: 13rem;
+  margin-top: -1rem;
+}
+
+.para {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 1rem;
+}
+.para > span {
+  background-color: rgb(158, 73, 158);
+}
+.btn_para {
+  display: flex;
+  margin: auto;
+  width: 28%;
+  margin-top: 1rem;
+}
+.btn_para > button {
+  color: white;
+  background-color: #0081ff;
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+.btn_para > p {
+  color: white;
+  padding-left: 2rem;
+  font-size: 1.3rem;
+  margin-top: 0.8rem;
+}
+.vertical_line {
+  border: 1px solid rgb(229, 224, 224);
+  height: 4rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.digital_section {
+  background: linear-gradient(
+    to right,
+    #080736 30%,
+    #080736 40%,
+    #0037ff 10%,
+    #0037ff 100%
+  );
+  margin-top: 10rem;
+}
+.digital_inner > h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bolder;
+  padding: 80px;
+  padding-left: 160px;
+}

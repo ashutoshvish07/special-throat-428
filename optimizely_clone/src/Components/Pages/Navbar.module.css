@@ -1,0 +1,15 @@
+:root {
+    --chakra-fontSizes-lg: '18px';
+    --chakra-colors-blue-100: '#0037ff';
+    --chakra-colors-gray-200: '#f7f7f7';
+  }
+.NavLink{
+    text-decoration: underline;
+    line-height: 10px;
+    color: blue;
+
+}
+
+.getStart{
+    background-color: var(--chakra-colors-blue-100);
+}
