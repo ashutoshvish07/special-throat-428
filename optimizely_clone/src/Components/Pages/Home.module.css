@@ -47,15 +47,72 @@
   display: flex;
   width: 50%;
   margin: auto;
-  border: 1px solid red;
   margin-top: -30px;
 }
 .date > div > h2 {
-    color: #ffce00;
-    font-size: 3em;
+  color: #ffce00;
+  font-size: 3em;
 }
-.date > div >h1{
-    color: white;
-    padding-left: 30px;
-    font-size: 39px;
+.date > div > h1 {
+  color: white;
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.date > div > p {
+  color: white;
+  margin-left: 13rem;
+  margin-top: -1rem;
+}
+
+.para {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 1rem;
+}
+.para > span {
+  background-color: rgb(158, 73, 158);
+}
+.btn_para {
+  display: flex;
+  margin: auto;
+  width: 28%;
+  margin-top: 1rem;
+}
+.btn_para > button {
+  color: white;
+  background-color: #0081ff;
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+.btn_para > p {
+  color: white;
+  padding-left: 2rem;
+  font-size: 1.3rem;
+  margin-top: 0.8rem;
+}
+.vertical_line {
+  border: 1px solid rgb(229, 224, 224);
+  height: 4rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.digital_section {
+  background: linear-gradient(
+    to right,
+    #080736 30%,
+    #080736 40%,
+    #0037ff 10%,
+    #0037ff 100%
+  );
+  margin-top: 10rem;
+}
+.digital_inner > h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bolder;
+  padding: 80px;
+  padding-left: 160px;
 }
