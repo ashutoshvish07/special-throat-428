@@ -1,10 +1,12 @@
 import './App.css';
+import Navbar from './Components/Pages/Navbar';
+import AllRoutes from './Components/Routes/AllRoutes';
 
 function App() {
   return (
     <div className="App">
-      
-      <h1>Optimizely</h1>
+       <Navbar/>
+      <AllRoutes/>
     </div>
   );
 }

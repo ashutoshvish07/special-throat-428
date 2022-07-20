@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.header_div {
+  display: flex;
+  width: 87%;
+  margin: auto;
+  margin-top: 30px;
+}
+.Text_Div {
+  width: 33%;
+}
+.Text_Div > h1 {
+  padding-top: 60px;
+  color: #000000;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 100px;
+}
+.Text_Div > p {
+  padding-top: 40px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+}
+.header_img {
+  width: 67%;
+}
+.Opticon {
+  width: 80%;
+  border-radius: 20px;
+  height: 400px;
+
+  margin: auto;
+  background-color: #0037ff;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+.opt_gif {
+  width: 40rem;
+  padding-left: 15rem;
+  margin-top: -12px;
+}
+.date {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  border: 1px solid red;
+  margin-top: -30px;
+}
+.date > div > h2 {
+    color: #ffce00;
+    font-size: 3em;
+}
+.date > div >h1{
+    color: white;
+    padding-left: 30px;
+    font-size: 39px;
+}
