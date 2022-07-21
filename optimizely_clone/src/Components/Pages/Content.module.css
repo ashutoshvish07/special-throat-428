@@ -1,25 +1,17 @@
-
 * {
   font-family: Arial, sans-serif;
 }
-
-
 .content {
   background-color: #861dff;
   width: 100%;
   margin: auto;
   display: flex;
-
-  gap: 10px;
-
   margin-top: -40px;
   justify-content: space-evenly;
 }
 .content > div {
   width: 25%;
-
   margin: auto;
-
 }
 .arrow {
   display: flex;
@@ -30,13 +22,8 @@
   margin-top: 55px;
   margin-left: 10px;
 }
-
 .arrow img:hover {
   margin-left: 20px;
-
-.arrow img:hover{
-    margin-left: 20px;
-
 }
 .arrow > h1 {
   color: #ffffff;
@@ -71,7 +58,6 @@
   background-color: #ffffff;
   color: #861dff;
 }
-
 .explore {
   width: 85%;
   margin: auto;
@@ -121,4 +107,3 @@
 .DXP > a:hover {
   color: #000000;
 }
-
