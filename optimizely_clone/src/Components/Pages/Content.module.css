@@ -1,0 +1,110 @@
+* {
+  font-family: Arial, sans-serif;
+}
+.content {
+  background-color: #861dff;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  margin-top: -40px;
+  justify-content: space-evenly;
+}
+.content > div {
+  width: 25%;
+  margin: auto;
+}
+.arrow {
+  display: flex;
+}
+.arrow img {
+  width: 25px;
+  height: 25px;
+  margin-top: 55px;
+  margin-left: 10px;
+}
+.arrow img:hover {
+  margin-left: 20px;
+}
+.arrow > h1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.arrow > h1:hover {
+  color: #000000;
+}
+.Para {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.btn {
+  margin-bottom: 40px;
+}
+.btn > button {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 3px 20px;
+  margin-top: 15px;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.btn > button:hover {
+  background-color: #ffffff;
+  color: #861dff;
+}
+.explore {
+  width: 85%;
+  margin: auto;
+  margin-top: 60px;
+}
+.explore > h1 {
+  color: #000000;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.Digital {
+  display: flex;
+  gap: 10px;
+}
+.Digital > div {
+  width: 30%;
+  margin: auto;
+  margin-top: 3rem;
+}
+.Digital > div > h4 {
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+}
+.Digital > div > h4:hover {
+  color: #861dff;
+}
+.Digital > div > p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-top: 1rem;
+}
+.DXP {
+  display: flex;
+  padding-top: 2rem;
+}
+.DXP > a {
+  color: blue;
+  font-weight: bold;
+}
+.DXP >img{
+  margin-left: 1rem;
+}
+.DXP > a:hover {
+  color: #000000;
+}
