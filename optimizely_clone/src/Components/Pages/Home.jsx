@@ -3,6 +3,8 @@ import Style from "./Home.module.css";
 import header from "../Icons/header.png";
 import opticon from "../Icons/Opticon.gif";
 import Company from "./Company";
+import video from "../Icons/video.png";
+import arrow from "../Icons/whiteArrow.png";
 const Home = () => {
   return (
     <div>
@@ -54,9 +56,25 @@ const Home = () => {
       <div className={Style.digital_section}>
         <div className={Style.digital_inner}>
           <h1>Digital Experience Platform</h1>
-          
+          <img src={video} alt="" />
         </div>
-        <div className={Style.digital_inner1}></div>
+        <div className={Style.digital_inner1}>
+          <h2>DXP</h2>
+          <h1>
+            Confidently create and optimize with Optimizely Digital Experience
+            Platform
+          </h1>
+          <p>
+            Transform digital experience creation with Optimizely Digital
+            Experience Platform, an open, extensible platform providing one
+            consistent foundation behind every digital touch point.
+          </p>
+          <div className={Style.link_A}>
+            <a href="#">Learn about our Digital Experience Platform </a>
+
+            <img src={arrow} alt="" />
+          </div>
+        </div>
       </div>
     </div>
   );

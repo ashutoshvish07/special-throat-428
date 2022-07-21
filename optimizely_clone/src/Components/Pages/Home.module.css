@@ -107,7 +107,10 @@
     #0037ff 10%,
     #0037ff 100%
   );
+  display: flex;
+  margin: auto;
   margin-top: 10rem;
+  margin-bottom: 40px;
 }
 .digital_inner > h1 {
   font-size: 40px;
@@ -115,4 +118,66 @@
   font-weight: bolder;
   padding: 80px;
   padding-left: 160px;
+  padding-bottom: 20px;
+}
+.digital_inner {
+  margin: auto;
+}
+.digital_inner > img {
+  width: 80%;
+  margin: auto;
+  padding-left: 5rem;
+  padding-bottom: 4rem;
+  margin-top: -10px;
+}
+.digital_inner1 {
+  width: 50%;
+  margin: auto;
+  margin-top: 110px;
+}
+.digital_inner1 > h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: -100px;
+}
+.digital_inner1 > h1 {
+  width: 90%;
+  font-size: 39px;
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 10px;
+  line-height: 50px;
+}
+.digital_inner1 > p {
+  color: #ffffff;
+  font-size: 18px;
+  width: 82%;
+  line-height: 23px;
+  font-weight: 400;
+  padding-top: 13px;
+  padding-bottom: 40px;
+}
+.link_A{
+  display: flex;
+
+}
+.link_A > a {
+  color: #ffffff;
+
+  text-decoration: none;
+  font-weight: bold;
+}
+.link_A > a:hover {
+  color: #000000;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.link_A >img{
+  width: 5%;
+  padding-left: 10px;
+}
+.link_A >img:hover{
+  margin-left: 15px;
+  transition: 1s;
 }
