@@ -1,0 +1,56 @@
+.content {
+  background-color: #861dff;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-top: -40px;
+  justify-content: space-evenly;
+}
+.content > div {
+  width: 25%;
+}
+.arrow {
+  display: flex;
+}
+.arrow img {
+  width: 25px;
+  height: 25px;
+  margin-top: 55px;
+  margin-left: 10px;
+}
+.arrow img:hover{
+    margin-left: 20px;
+}
+.arrow > h1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.arrow > h1:hover {
+  color: #000000;
+}
+.Para {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.btn {
+  margin-bottom: 40px;
+}
+.btn > button {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 3px 20px;
+  margin-top: 15px;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.btn > button:hover {
+  background-color: #ffffff;
+  color: #861dff;
+}

@@ -5,6 +5,7 @@ import opticon from "../Icons/Opticon.gif";
 import Company from "./Company";
 import video from "../Icons/video.png";
 import arrow from "../Icons/whiteArrow.png";
+import Content from "./Content";
 const Home = () => {
   return (
     <div>
@@ -76,6 +77,13 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* content */}
+       <Content/>
+      <div>
+
+      </div>
+
+
     </div>
   );
 };
