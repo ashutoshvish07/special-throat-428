@@ -5,7 +5,14 @@ import opticon from "../Icons/Opticon.gif";
 import Company from "./Company";
 import video from "../Icons/video.png";
 import arrow from "../Icons/whiteArrow.png";
+import maza from "../Icons/Mazda logo.png";
+import Far from "../Icons/Farfetch logo.png";
+import apron from "../Icons/Blue Apron logo.png";
 import Content from "./Content";
+import yelArrow from "../Icons/yelloArrow.png";
+import Form from "./Form";
+import ForYou from "./ForYou";
+import Footer from "./Footer";
 const Home = () => {
   return (
     <div>
@@ -78,12 +85,52 @@ const Home = () => {
         </div>
       </div>
       {/* content */}
-       <Content/>
-      <div>
+      <Content />
+      {/* mazada */}
+      <div className={Style.Mazada}>
+        <div className={Style.mazada_div}>
+          <img src={maza} alt="" />
+          <h1>200%</h1>
+          <p>Increase engagement on site</p>
 
+          <h1>5m+</h1>
+          <p>Unique visitors within 2 months of launch</p>
+
+          <img id={Style.yello_Arrow} src={yelArrow} alt="" />
+        </div>
+        <div className={Style.appron_div}>
+          <img src={apron} alt="" />
+          <h1>10X</h1>
+          <p>Increase in experiment run per month after adopting Optimizely</p>
+
+          <h1>100%</h1>
+          <p>Number of product teams using experimentation</p>
+
+          <img id={Style.yello_Arrow} src={yelArrow} alt="" />
+        </div>
+        <div className={Style.farfetch_div}>
+          <img src={Far} alt="" />
+          <h1>2X</h1>
+          <p>
+            Experimentation community has enlarged from 80 to 170 participants
+          </p>
+
+          <h1>20-50</h1>
+          <p>Experiments running each month by the experimentation team</p>
+
+          <img id={Style.yello_Arrow} src={yelArrow} alt="" />
+        </div>
       </div>
-
-
+     {/* form  */}
+     <div>
+      <Form/>
+     </div>
+     <div>
+      <ForYou/>
+     </div>
+     <div>
+      <Footer/>
+     </div>
     </div>
   );
 };

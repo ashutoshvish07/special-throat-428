@@ -158,9 +158,8 @@
   padding-top: 13px;
   padding-bottom: 40px;
 }
-.link_A{
+.link_A {
   display: flex;
-
 }
 .link_A > a {
   color: #ffffff;
@@ -173,11 +172,59 @@
   font-weight: bold;
   transition: 0.5s;
 }
-.link_A >img{
+.link_A > img {
   width: 5%;
   padding-left: 10px;
 }
-.link_A >img:hover{
+.link_A > img:hover {
   margin-left: 15px;
   transition: 1s;
+}
+.Mazada {
+  display: flex;
+  width: 87%;
+  margin: auto;
+  margin-top: 6rem;   
+}
+.Mazada > div {
+ 
+  width: 32%;
+  /* border: 1px solid red; */
+  margin-bottom: 3rem;
+}
+.mazada_div {
+  background-color: #080736;
+}
+.appron_div {
+  background-color: #861dff;
+}
+.farfetch_div{
+  background-color: #0037ff;
+}
+.mazada_div >img,.appron_div>img,.farfetch_div>img{
+  padding-left: 3rem;
+  padding-top: 4rem;
+}
+.mazada_div > h1 ,.appron_div>h1,.farfetch_div>h1{
+  color: #ffce00;
+  font-size: 50px;
+  font-weight:bolder;
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+.mazada_div > p,.appron_div>p,.farfetch_div>p{
+  color: #ffffff;
+  font-size: 18px;
+   width: 80%;
+  font-weight: normal;
+  padding-left: 3rem;
+}
+#yello_Arrow{
+  padding-top: 5rem;
+  padding-left: 20rem;
+  padding-bottom: 1rem;
+}
+#yello_Arrow:hover{
+  margin-left: 2rem;
+  transition: 00.5s;
 }

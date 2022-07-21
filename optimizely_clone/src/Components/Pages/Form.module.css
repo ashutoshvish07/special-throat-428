@@ -1,0 +1,63 @@
+.main_div{
+    display: flex;
+    width: 87%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.blue{
+    width: 4%;
+    background-color: blue;
+}
+.second_div{
+    width: 46%;
+    background-color: #080736;
+    
+}
+.second_div>h1{
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bolder;
+  padding-left: 4rem;
+  padding-top: 5rem;
+}
+.second_div>p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 23px;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+.second_div> ul {
+    color: #ffffff;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+.second_div> ul > li{
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.Form_div{
+    width: 47%;
+    background-color: #3be081;
+}
+.Form_div >h1{
+    font-size: 31px;
+    color: #000000;
+    line-height: 35px;
+    font-weight: bolder;
+    padding-left: 4rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+}
+.First_name{
+    display: flex;
+    padding-left: 2rem;
+    padding-left: 2rem;
+}
+.First_name >img{
+    margin-top: 3rem;
+}
