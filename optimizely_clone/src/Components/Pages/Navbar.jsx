@@ -30,7 +30,7 @@ import { Link as ReachLink}   from "react-router-dom";
 const Links = ["Plan", "Resources", "Partners"];
 
 const NavLink = ({ children }) => (
-  <Link
+  <Link to='/Plan'
     px={2}
     py={1}
     pt={3}
@@ -74,9 +74,10 @@ const Navbar = () => {
                   <PopoverContent></PopoverContent>
                 </Popover>
               </NavLink>
+               
               {Links.map((link) => (
                 <NavLink fontweight={"bold"} key={link} m={"auto"}>
-                  <Box>{link}</Box>
+                  <Box> <Link as ={ReachLink}  to="/plans"> {link} </Link></Box>
                 </NavLink>
               ))}
             </HStack>
