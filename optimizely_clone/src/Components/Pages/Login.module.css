@@ -1,0 +1,136 @@
+.logi_div {
+  display: flex;
+  width: 100%;
+}
+.first_div {
+  width: 65%;
+  /* border: 5px solid slateblue; */
+}
+.second_div {
+  width: 35%;
+  background-color: #5420a2;
+  /* border: 3px solid green; */
+  /* border: 1px solid green; */
+}
+.welcom_div {
+  width: 40%;
+  margin: auto;
+  margin-top: 5rem;
+  /* border: 2px solid springgreen; */
+}
+.welcom_div > img {
+  width: 80%;
+  margin: auto;
+}
+.welcom_div > p {
+  text-align: center;
+  margin-top: -1rem;
+  font-weight: bold;
+}
+.login_Signup {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.login_Signup > div {
+  width: 50%;
+  border-bottom: 3px solid red;
+}
+.login_Signup > div + div {
+  width: 50%;
+  border-bottom: 3px solid green;
+  background-color: white;
+}
+.login_Signup > div > button {
+  font-size: 20px;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+.logo {
+  border: 1px solid gray;
+  width: 85%;
+  margin: auto;
+  border-radius: 0.3rem;
+  padding: 0.6rem;
+  display: flex;
+}
+.logo:hover {
+  background-color: rgb(195, 195, 195);
+}
+.logo img {
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  margin-left: 3rem;
+}
+.logo > h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  padding-left: 1rem;
+}
+.input_form {
+  width: 85%;
+  margin: auto;
+  margin-top: 1rem;
+}
+.input_form > label {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.input_form > input {
+  width: 100%;
+  margin-top: 0.3rem;
+  border-radius: 0.2rem;
+  border: 1px solid gray;
+  padding: 0.6rem;
+}
+.input_form > button {
+  width: 100%;
+  margin-top: 1.5rem;
+  background-color: #b795eb;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 0.2rem;
+  border: 1px solid gray;
+  padding: 0.6rem;
+}
+.input_form > button:hover{
+    background-color: #8e51e9;
+    transition: 0.5s;
+}
+.input_form > p {
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-size: small;
+}
+.input_form > p > span {
+  color: #7734dc;
+  cursor: pointer;
+}
+.second_div > h1 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  font-weight: bolder;
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
+}
+.workSpace {
+  display: flex;
+  padding-left: 3rem;
+  margin-top: 2rem;
+}
+.workSpace > p{
+    padding-left: 1rem;
+    color: #ffffff;
+}
+.team_div{
+    z-index: 1;
+}
+.team_div > img {
+    margin-top: 4rem;
+    width: 60%;
+}

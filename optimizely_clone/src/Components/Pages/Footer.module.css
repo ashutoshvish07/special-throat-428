@@ -1,0 +1,128 @@
+.main_div {
+  width: 100%;
+  background-color: #080736;
+  margin-top: 6rem;
+}
+.Footer {
+  display: grid;
+  width: 90%;
+  gap: 2rem;
+  margin: auto;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-around;
+}
+.content_div > img {
+  width: 50px;
+  height: 50px;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+.content_div > h3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.content_div > div {
+  margin-top: 12rem;
+}
+.content_div > div > h3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.content_div > div > ul {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.content_div > div > ul li {
+  color: #ffffff;
+  list-style-type: none;
+  font-weight: normal;
+  padding-top: 0.5rem;
+  font-size: 14px;
+  line-height: 18px;
+}
+.content_div > div > ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.content_div > ul {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.content_div > ul li {
+  color: #ffffff;
+  list-style-type: none;
+  font-weight: normal;
+  padding-top: 0.5rem;
+  font-size: 14px;
+  line-height: 18px;
+}
+.content_div > ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.content_div > h4 {
+  margin-top: 5rem;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+.content_div > select {
+  width: 90%;
+  background-color: #393a5d;
+  color: #ffffff;
+  
+  padding: 0.5rem;
+  border: none;
+  margin-bottom: 1.8rem;
+}
+.content_div > select > option {
+    background-color: #ffffff;
+    color: #000000;
+}
+.content_div b{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.content_div p{
+    color: #ffffff;
+    font-size: small;
+    padding-top: 1rem;
+}
+.bottom_sec {
+    background-color: #393a5d;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.social{
+    display: flex;
+    gap: 2rem ;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   justify-content: space-evenly;
+}
+.social div img:hover {
+ opacity: .8;
+ cursor: pointer;
+}
+.footer_text{
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.footer_text p {
+    color: #ffffff;
+}
+.footer_text a {
+    color: #ffffff;
+}
+.footer_text a:hover{
+    text-decoration: underline;
+}

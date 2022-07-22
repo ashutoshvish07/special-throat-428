@@ -18,14 +18,15 @@ import {
   Popover,
   PopoverTrigger,
   PopoverContent,
- 
+  Text,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
   CloseIcon,
   Search2Icon,
+  ArrowForwardIcon,
 } from "@chakra-ui/icons";
-
+import { Link as ReachLink}   from "react-router-dom";
 const Links = ["Plan", "Resources", "Partners"];
 
 const NavLink = ({ children }) => (
@@ -33,11 +34,8 @@ const NavLink = ({ children }) => (
     px={2}
     py={1}
     pt={3}
-    
     fontWeight={"medium"}
-    _hover={{
-        
-    }}
+    _hover={{ color: "blue" }}
     href={"/"}
   >
     {children}
@@ -59,7 +57,9 @@ const Navbar = () => {
           />
           <HStack spacing={8} alignItems={"center"}>
             <Box>
+             <Link as ={ReachLink}  to="/">
               <Image src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_logo_navigation.svg" />
+             </Link>
             </Box>
             <HStack
               as={"nav"}
@@ -76,17 +76,14 @@ const Navbar = () => {
               </NavLink>
               {Links.map((link) => (
                 <NavLink fontweight={"bold"} key={link} m={"auto"}>
-                <Box>
-                  {link}
-                </Box>
+                  <Box>{link}</Box>
                 </NavLink>
               ))}
             </HStack>
           </HStack>
           <Flex alignItems={"center"} gap={5}>
-            <Box  fontWeight={"medium"}>Support</Box>
-            <Box  fontWeight={"medium"} >
-              
+            <Box fontWeight={"medium"}>Support</Box>
+            <Box fontWeight={"medium"}>
               <Search2Icon /> Search
             </Box>
 
@@ -96,14 +93,51 @@ const Navbar = () => {
                   <Box>
                     <Image src="https://www.optimizely.com/contentassets/19e2441ca72d4ea9a3f17e5f3a92bd16/login.svg" />
                   </Box>
-                  <Box  fontWeight={"medium"} >LogIn</Box>
+                  <Box fontWeight={"medium"}>LogIn</Box>
                 </Flex>
               </MenuButton>
               <MenuList>
-                <MenuItem>Link 1</MenuItem>
-                <MenuItem>Link 2</MenuItem>
+                <Text pl={2} fontSize="sm">
+                  Where to ?
+                </Text>
+                <MenuItem
+                  fontSize={"xl"}
+                  color={"blue"}
+                  _hover={{ color: "black" }}
+                >
+                  Experiment <ArrowForwardIcon _hover={{ ml: "1rem" }} />
+                </MenuItem>
+                <MenuItem
+                  fontSize={"xl"}
+                  color={"blue"}
+                  _hover={{ color: "black" }}
+                >
+                  <Link as ={ReachLink}  to="/login"> Welcome </Link>
+
+                  <ArrowForwardIcon _hover={{ ml: "1rem" }} />
+                </MenuItem>
+                <MenuItem
+                  fontSize={"xl"}
+                  color={"blue"}
+                  _hover={{ color: "black" }}
+                >
+                  Email Campaign <ArrowForwardIcon _hover={{ ml: "1rem" }} />
+                </MenuItem>
+                <MenuItem
+                  fontSize={"xl"}
+                  color={"blue"}
+                  _hover={{ color: "black" }}
+                >
+                  Data platform <ArrowForwardIcon _hover={{ ml: "1rem" }} />
+                </MenuItem>
+                <MenuItem
+                  fontSize={"xl"}
+                  color={"blue"}
+                  _hover={{ color: "black" }}
+                >
+                  Partners <ArrowForwardIcon _hover={{ ml: "1rem" }} />
+                </MenuItem>
                 <MenuDivider />
-                <MenuItem>Link 3</MenuItem>
               </MenuList>
             </Menu>
             <Button
@@ -127,9 +161,7 @@ const Navbar = () => {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
-                <NavLink  key={link}>
-                  {link}
-                </NavLink>
+                <NavLink key={link}>{link}</NavLink>
               ))}
             </Stack>
           </Box>

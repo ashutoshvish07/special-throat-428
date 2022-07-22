@@ -128,9 +128,6 @@ const Home = () => {
      <div>
       <ForYou/>
      </div>
-     <div>
-      <Footer/>
-     </div>
     </div>
   );
 };

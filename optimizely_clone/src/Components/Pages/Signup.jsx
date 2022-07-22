@@ -6,14 +6,9 @@ import grid from "../Icons/grid.png";
 import color from "../Icons/color.png";
 import line from "../Icons/lines.png";
 import team from "../Icons/team.png";
-import Signup from "./Signup";
 import { Link } from "react-router-dom";
-const Login = () => {
+const Signup = () => {
   const [login, setlogin] = useState(false);
-  
-  const handleClick = () =>{
-        setlogin(true)
-  }
 
   return (
     <div>
@@ -23,19 +18,19 @@ const Login = () => {
             <img src={welcom} alt="" />
             <div className={style.login_Signup}>
               <div>
-                <button onClick={handleClick}>
-                    <Link to='/login'>Login</Link>
+                <button>
+                  <Link to="/login">Login</Link>
                 </button>
               </div>
               <div>
-                <button onClick={handleClick}>
-                    <Link to='/signup'>Signup</Link>
+                <button>
+                  <Link to="/signup">Signup</Link>
                 </button>
               </div>
             </div>
             <div className={style.logo}>
               <img src={google} alt="" />
-              <h3>Login with Google</h3>
+              <h3>Sign up with Google</h3>
             </div>
             <br />
             <br />
@@ -80,9 +75,8 @@ const Login = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };
 
-export default Login;
+export default Signup;
